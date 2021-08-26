@@ -16,17 +16,14 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * Handles requests for the application home page.
  */
 @Controller
-@RequestMapping("board/member")
-public class MemberController {
+@RequestMapping("board")
+public class CartController {
 	
-	private static final Logger logger = LoggerFactory.getLogger(MemberController.class);
-	
-	@GetMapping("login")
+	private static final Logger logger = LoggerFactory.getLogger(CartController.class);
+		
+	@GetMapping("cart")
 	public void cart() {
-		logger.info("Welcome login!");
+		logger.info("Welcome cart!");
 	}
-	@GetMapping("signUp")
-	public void bestItem() {
-		logger.info("Welcome signUp!");
-	}
+	
 }

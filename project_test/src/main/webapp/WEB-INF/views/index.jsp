@@ -25,16 +25,17 @@
 
                 <div class="gnb pc">
                     <ul>
-                        <li><a href="">Brands</a></li>
                         <li><a href="">Clothes</a></li>
-                        <li><a href="">New</a></li>
+                        <li><a href="board/item/bestItem">Best</a></li>
+                        <li><a href="board/item/newItem">New</a></li>
+                        <li><a href="">Brands</a></li>
                     </ul>
                 </div> <!-- .gnb pc -->
                 
                 <div class="util pc">
                     <ul>
-                        <li><a href="">Login</a></li>
-                        <li><a href="">Sign Up</a></li>
+                        <li><a href="board/member/login">Login</a></li>
+                        <li><a href="board/member/signUp">Sign Up</a></li>
                         <li><a href="">고객센터</a></li>
                     </ul>
                 </div> <!-- .util pc -->
@@ -51,7 +52,7 @@
                                 </fieldset>    
                             </form>
                         </li>
-                        <li class="btn-cart"><a href=""><span>장바구니</span></a></li>
+                        <li class="btn-cart"><a href="board/cart"><span>장바구니</span></a></li>
                         <li class="btn-openMenuAll mo">
                             <a href="">
                                 <span>모든 메뉴 열기</span>
@@ -69,10 +70,11 @@
         <div class="openMenuAll mo">
             <aside>
                 <ul>
-                    <li class="bottom"><a href="">Brands<span class="bottom-bg"></span></a></li>
                     <li class="bottom"><a href="">Clothes<span class="bottom-bg"></span></a></li>
-                    <li class="bottom"><a href="">New<span class="bottom-bg"></span></a></li>
-                    <li class="bottom"><a href="">Customor<span class="bottom-bg"></span></a></li>
+                    <li class="bottom"><a href="board/item/newItem">New<span class="bottom-bg"></span></a></li>
+                    <li class="bottom"><a href="board/item/bestItem">Best<span class="bottom-bg"></span></a></li>
+                    <li class="bottom"><a href="">Brands<span class="bottom-bg"></span></a></li>
+                    <li class="bottom"><a href="">Customer<span class="bottom-bg"></span></a></li>
                     <li class="bottom"><a href="">Account<span class="bottom-bg"></span></a></li>
                 </ul>
             </aside>
@@ -306,9 +308,9 @@
                     <div class="f_account">
                         <h2>Account</h2>
                         <ul>
-                            <li><a href="">Login/Sign up</a></li>
+                            <li><a href="board/member/login">Login</a></li>
+                            <li><a href="board/member/signUp">Sign up</a></li>
                             <li><a href="">My Page</a></li>
-                            <li><a href="">Membership</a></li>
                         </ul>
                     </div> <!-- .f_account -->
                 </div> <!-- .f_ftIn-->   
