@@ -31,6 +31,7 @@ input{
     border: 0;
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
+    margin-top: 10px;
     padding: 10px 0 10px 5px;
 }
 .id, .pwd, .tel{
@@ -83,6 +84,7 @@ select{
 }
 .login-id, .login-pwd{
     width: 100%;
+    margin-bottom: 20px;
 }
 .login_btn, .signUp_btn{
     width: 100%;
