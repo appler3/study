@@ -49,7 +49,7 @@ input::placeholder{
 }
 select{
     border: 0;
-    padding: 10px 0 10px 5px;
+    padding: 10px 5px 10px 5px;
     font-family: 'Noto Sans KR', sans-serif;
     color: #555;
 }
@@ -82,6 +82,9 @@ select{
     border: 1px solid #eee;
     padding: 50px;
 }
+.logo{
+	color: #393e46;
+}
 .login-id, .login-pwd{
     width: 100%;
     margin-bottom: 20px;
@@ -90,9 +93,10 @@ select{
     width: 100%;
     height: 50px;
     border: 0;
-    font-size: 15px;
-    background-color: #393e46;
     color: #eee;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #393e46;    
 }
 .member-btns{
     display: flex;
@@ -111,7 +115,12 @@ select{
     margin-left: 20px;
     margin-right: 10px;
 }
+.tel, .tel1{
+	width: 60px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
 .email{
-    width: 165px;
+    width: 160px;
     margin-right: 10px;
 }
