@@ -1,0 +1,105 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+ul, ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color: #999;
+}
+fieldset{
+    border: 0;    
+}
+legend{
+    display: none;
+}
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 13px;
+    line-height: 20px;
+    color: #222222;
+}
+input{
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+    padding: 10px 0 10px 5px;
+}
+input::placeholder{
+    color: #999;
+}
+select{
+    border: 0;
+    padding: 10px 0 10px 5px;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #555;
+}
+#wrap{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.logo{
+    display: block;
+    text-align: center;
+    margin-bottom: 40px;
+}
+#login-container, #signUp-container{
+    width: 400px;
+    border: 1px;
+    border-color: #eee;
+
+    position: absolute;
+    left: 50%;    
+}
+#login-container{
+    margin-left: -200px;
+    margin-top: 150px;
+}
+#signUp-container{
+    margin-left: -200px;
+}
+.login-containerIn, .signUp-containerIn{
+    border: 1px solid #eee;
+    padding: 50px;
+}
+.login-id, .login-pwd{
+    width: 100%;
+}
+.login_btn, .signUp_btn{
+    width: 100%;
+    height: 50px;
+    border: 0;
+    font-size: 15px;
+    background-color: #393e46;
+    color: #eee;
+}
+.member-btns{
+    display: flex;
+    justify-content: space-between;
+}
+.signUp-label{
+    font-size: 17px;
+    color: #333;
+}
+.radio-gender{
+    margin-right: 20px;
+    font-size: 16px;
+}
+.gender{
+    width: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.email{
+    width: 165px;
+    margin-right: 10px;
+}
