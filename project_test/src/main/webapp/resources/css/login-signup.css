@@ -33,6 +33,16 @@ input{
     margin-bottom: 30px;
     padding: 10px 0 10px 5px;
 }
+.id, .pwd, .tel{
+    margin-bottom: 0;
+}
+.signUp-js{
+    display: block;
+    padding-bottom: 30px;
+}
+.id-label, .pwd-label, .tel-label{
+    display: none;
+}
 input::placeholder{
     color: #999;
 }
