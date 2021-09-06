@@ -24,7 +24,7 @@
                 <h1 class="h_logo"><a href=""><span>로고</span></a></h1>
 
                 <div class="gnb pc">
-                    <ul>
+                    <ul>                    
                         <li><a href="">Clothes</a></li>
                         <li><a href="board/item/bestItem">Best</a></li>
                         <li><a href="board/item/newItem">New</a></li>
@@ -33,9 +33,10 @@
                 </div> <!-- .gnb pc -->
                 
                 <div class="util pc">
-                    <ul>
-                        <li><a href="board/member/login">Login</a></li>
-                        <li><a href="board/member/signUp">Sign Up</a></li>
+                    <ul>                    
+                    	<li><a href="">${mname}</a></li>
+                    	<li><a href="${loginOutPath}">${loginOut}</a></li>
+                        <li><a href="${signUpMyPagePath}">${signUpMyPage}</a></li>
                         <li><a href="">고객센터</a></li>
                     </ul>
                 </div> <!-- .util pc -->
@@ -308,9 +309,8 @@
                     <div class="f_account">
                         <h2>Account</h2>
                         <ul>
-                            <li><a href="board/member/login">Login</a></li>
-                            <li><a href="board/member/signUp">Sign up</a></li>
-                            <li><a href="">My Page</a></li>
+                            <li><a href="${loginOutPath}">${loginOut}</a></li>
+                            <li><a href="${signUpMyPagePath}">${signUpMyPage}</a></li>
                         </ul>
                     </div> <!-- .f_account -->
                 </div> <!-- .f_ftIn-->   
