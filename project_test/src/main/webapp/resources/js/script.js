@@ -176,7 +176,7 @@ $(function(){
     
 
     /* .section1, .section3의 li item img에 mouseover 이벤트 효과 */
-    var sec1sec3 = $('.section1 li a, .section3 li a, .section-best');
+    var sec1sec3 = $('.section1 li a, .section3 li a');
     $(sec1sec3).find('img')
         .on('mouseover', function(){
             $(this).stop(true).animate({

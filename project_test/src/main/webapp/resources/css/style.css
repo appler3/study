@@ -71,13 +71,8 @@ body{
     font-size: 18px;
 }
 .gnb ul li a{
-    color: rgba(0, 0, 0, 0.6);
-    font-weight: 700;
-}
-.gnb ul li a:hover{
-    /* #393e46 */
-    /* rgba(0, 0, 0, 0.5); */
     color: #393e46;
+    font-weight: 700;
 }
 .util ul{
     display: flex;
@@ -692,11 +687,6 @@ body{
         top: 40px;
         left: 200px;
     } 
-    .gnb ul li a:hover{
-        /* #393e46 */
-        /* rgba(0, 0, 0, 0.5); */
-        color: #393e46;
-    }
     .util{
         position: absolute;
         top: 5px;

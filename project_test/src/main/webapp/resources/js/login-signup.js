@@ -54,5 +54,36 @@ $(document).ready(function(){
         }
     });
 
+    $('#signUp_btn').on('click',function(){
+        //번호 정규식
+        var patt = new RegExp("[0-9]{2,3}-[0-9]{3,4}-[0-9]{3,4}");
+        var res = patt.test( $("#tel").val() );
+        var tel = $("#tel");
+        if( !res ){
+            alert("번호를 정확히 기재하세요.");
+            tel.select();
+            return false;
+        }
+    });
+    
+    var dbVal = $('#db_gender').val();
+    
+//    $.fn.radioSelect = function(val){
+//    	alert('radioSelect');
+//        this.each(function(){
+//        	alert("aaaa");
+//            var $this = $(this);
+//            
+//            if($this.val() == val){
+//                $this.attr('checked', true);
+//            	alert("this.val: "+$this.val()+", val: "+val);
+//            }else{
+//            	alert("this.val: "+$this.val()+", val: "+val);
+//            }
+//        });
+//        return this;
+//    };
 
+    //$(":radio[name='gender']").radioSelect(dbVal);
+    $("input:radio[name='gender']:radio[value='"+dbVal+"']").attr("checked", true);
 })
